@@ -1,0 +1,52 @@
+body {
+  margin: auto;
+  padding: 0;
+  height: 100vh;
+  background-image: url(83181566.png);
+  color: chartreuse;
+  background-attachment: fixed;
+  font-size: 40px;
+  font-family: 'Protest Riot', sans-serif;
+  font-family: 'Protest Strike', sans-serif;
+}
+
+.container {
+  background-image: url(navbar.jpg);
+  opacity: 0.90;
+  display: flex;
+}
+
+.container ul li {
+  display: inline-block;
+
+}
+.container ul li a:hover {
+  color: rgb(0, 255, 0);
+}
+
+.container ul {
+  margin-left: 100px;
+  text-align: center;
+  overflow: hidden;
+}
+.container ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(4, 142, 223);
+  padding: 10px 0px; 
+  margin-left: 150px; 
+}
+
+.container ul li img {
+  vertical-align: middle;
+}
+
+footer {
+  font-size: 40px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  color: rgb(255, 255, 255);
+}
